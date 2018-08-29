@@ -17,7 +17,7 @@ Open your browser, enter http://localhost:8000/. Then you can see the page.
 
 ## 2. Development server
 
-Enter the ../client directory(contains Angular4 source code), run `npm install`first to install the dependencies and then run `npm start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files. Use this mode for development.
+Enter the stock directory(contains Angular4 source code), run `npm install`first to install the dependencies and then run `npm start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files. Use this mode for development.
 
 
 
