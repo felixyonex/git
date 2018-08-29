@@ -43,7 +43,7 @@ var StockBuy = /** @class */ (function () {
     return StockBuy;
 }());
 exports.StockBuy = StockBuy;
-app.use('/', express.static(path.join(__dirname, '..', 'client')));
+app.use('/', express.static(path.join(__dirname, 'client')));
 //Initiate the stock account arr
 var stocksBuy = [
     new StockBuy("GOOGL", 100, 1244.28, "2018-08-28 15:55:00", [1244.28], [100], [], []),
