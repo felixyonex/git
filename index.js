@@ -117,7 +117,6 @@ wsServer.on("connection", function (websocket) {
         stocksBuy = JSON.parse(message);
         //Calculate the balance
         balance = balanceCal();
-        console.log("balance" + balance);
         //Balance calculate method
         function balanceCal() {
             var tempCost = 0;

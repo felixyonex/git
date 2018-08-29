@@ -139,7 +139,6 @@ wsServer.on("connection", websocket => {
 
     //Calculate the balance
     balance = balanceCal();
-    console.log("balance" + balance);
 
     //Balance calculate method
     function balanceCal() {
